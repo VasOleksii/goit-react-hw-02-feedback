@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 
 export const Statistics = ({ good, neutral, bad, total, percentage }) => (
   <div>
-    <p className={css.variant}>Good: {good}</p>
-    <p className={css.variant}>Neutral: {neutral}</p>
-    <p className={css.variant}>Bad: {bad}</p>
-    <p className={css.variant}>Total:{total}</p>
-    <p className={css.variant}>Positive feedback: {percentage} %</p>
+    <p className={css.statItem}>Good: {good}</p>
+    <p className={css.statItem}>Neutral: {neutral}</p>
+    <p className={css.statItem}>Bad: {bad}</p>
+    <p className={css.statItem}>Total:{total}</p>
+    <p className={css.statItem}>Positive feedback: {percentage} %</p>
   </div>
 );
 
